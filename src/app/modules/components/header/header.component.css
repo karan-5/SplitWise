@@ -1,0 +1,21 @@
+
+.container{
+    background-color: #00ffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+   padding-left: 1rem;
+   text-decoration: none;
+   color: black;
+}
+a:active{
+    color: white;
+}
+button{
+   margin-left: 1rem;
+   padding: 0.3rem;
+   background-color: white;
+}

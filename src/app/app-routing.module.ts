@@ -7,9 +7,10 @@ import { NotFoundComponent } from './Component/not-found/not-found.component';
 const routes: Routes = [
   {
     path: "",
-    redirectTo:"/login",
+    redirectTo:"login",
     pathMatch:"full"
   },
+  {path: "dashboard", loadChildren: () => import('./modules/dashboard.module').then(m => m.DashboardModule)},
   {
     path:"login",
     component:LoginComponent

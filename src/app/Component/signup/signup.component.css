@@ -4,14 +4,41 @@
     align-items: center;
 }
 
+.header{
+    background-color: #00ffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2{
+    font-weight: 700;
+}
+
 .form__container {
     box-shadow: 5px 5px;
     padding: 2rem;
-    background-color: lightgray;
+    background-color:rgb(241, 244, 247);
+    margin-top:6rem;
+    border-radius: 10px;
 }
 
 input{
-    padding: 4px;
+    padding: 8px;
     margin-top:1rem;
     margin-bottom: 1rem;
+}
+
+label {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding-left: 4rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }

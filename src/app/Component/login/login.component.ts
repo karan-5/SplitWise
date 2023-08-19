@@ -2,9 +2,19 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormBuilder } from '@angular/forms';
 import { AuthServiceService } from 'src/app/services/auth-service.service';
+import {
+  trigger,
+  state,
+  style,
+  animate,
+  transition,
+} from '@angular/animations';
 
 @Component({
   selector: 'app-login',
+  animations: [
+    
+  ],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
 })

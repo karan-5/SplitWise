@@ -1,6 +1,9 @@
+<div class="header">
+    <h2>SplitWise</h2>
+</div>
+
 <div class="container">
     <div class="form__container">
-        <h3>Login Page</h3>
 
         <form class="form" [formGroup]="userForm" (ngSubmit)="onLoginIn()"> 
 
@@ -10,8 +13,8 @@
             <label for="password">Password:</label><br>
             <input type="password" id="password" formControlName="password" placeholder="password must be of 8 character"><br>
 
-            <button class="login">Login</button>
-            <button class="signup" (click)="goToSignUp()">SignUp</button>
+            <button class="login">Login</button><br>
+            <button class="signup" (click)="goToSignUp()">SignUp</button><br>
 
             <div class="g-signin2" data-onsuccess="onGoogleSignIn"></div>
 

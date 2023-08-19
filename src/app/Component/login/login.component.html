@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="form__container">
+        <h3>Login Page</h3>
+
+        <form class="form">
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="test@gmail.com"><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" placeholder="password must be of 8 character"><br>
+
+            <button class="login">Login</button>
+            <button class="signup" (click)="goToSignUp()">SignUp</button>
+
+            <div class="g-signin2" data-onsuccess="onGoogleSignIn"></div>
+
+        </form>
+    </div>
+</div>

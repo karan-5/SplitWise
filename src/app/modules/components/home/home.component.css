@@ -3,11 +3,15 @@
 }
 .card-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
+    margin: 2rem 2rem;
+    background-color: lightcyan;
 }
 h2{
     text-align: center;
-    color: grey;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
 }
 .add-expense-btn{
     padding: 1rem;

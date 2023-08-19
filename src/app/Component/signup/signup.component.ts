@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
 export class SignupComponent {
   
   countId=1;
+  userEmail="";
   constructor(private formBuilder:FormBuilder,private authService:AuthServiceService,private router:Router){
 
   }
@@ -20,11 +21,13 @@ export class SignupComponent {
     name:[''],
     phone:[''],
     email:[''],
-    password:['']
+    password:[''],
+    linkedUsers:[{}],
   })
 
   onSignUp(){
    this.userForm.value.id=this.userForm.value.email;
+   this.authService.updateCurrentUser({email:this.userForm.value.email}).subscribe();
    this.authService.register(this.userForm.value).subscribe(res=>{
    // this.toastrService.success("Successfully registered");
     this.router.navigate(['dashboard']);

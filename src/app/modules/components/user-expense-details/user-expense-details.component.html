@@ -1,0 +1,18 @@
+<div class="wrapper">
+    <div class="card-container">
+    <div class="container-header">
+    <h2>{{userDetails.name}}</h2>
+    <div class="buttons-container">
+        <button class="expense-btn" (click)="onAddExpenseBtnClick()">Add Expense</button>
+        <button class="settleup-btn">Settle up</button>
+    </div>
+    </div>
+    <app-add-expense *ngIf="showAddition"></app-add-expense>
+    <div class="expense-list">
+        <div class="expense">
+            <h3></h3>
+            <h4></h4>
+        </div>
+    </div>
+    </div>
+</div>

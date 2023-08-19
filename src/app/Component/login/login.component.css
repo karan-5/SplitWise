@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__container {
+    box-shadow: 5px 5px;
+    padding: 2rem;
+    background-color: lightgray;
+}
+
+input{
+    padding: 4px;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.login{
+    padding: 4px;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px;
+}
+.signup {
+    margin-left: 4px;
+    padding: 5px;
+    box-shadow: 3px 3px;
+}

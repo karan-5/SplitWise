@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="form__container">
+        <h3>Login Page</h3>
+
+        <form class="form" [formGroup]="userForm" (ngSubmit)="onLoginIn()"> 
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" formControlName="email" placeholder="test@gmail.com"><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" formControlName="password" placeholder="password must be of 8 character"><br>
+
+            <button class="login">Login</button>
+            <button class="signup" (click)="goToSignUp()">SignUp</button>
+
+            <div class="g-signin2" data-onsuccess="onGoogleSignIn"></div>
+
+        </form>
+    </div>
+</div>
+<!-- jsfg? -->

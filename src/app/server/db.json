@@ -1,10 +1,37 @@
 {
-    "users": [
-      { "id": 1, "name": "", "phone": "", "email":"","password":""}
-    ],
-    "groups":[
-        {
-            "name":""
-        }
-    ]
+  "users": [
+    {
+      "id": "test@gmail.com",
+      "name": "karan",
+      "phone": "90909009",
+      "email": "test@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "yash@gmail.com",
+      "name": "yash",
+      "phone": "90909090",
+      "email": "yash@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "chirag@gmail.com",
+      "name": "Chirag",
+      "phone": "90900990",
+      "email": "chirag@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "rajnish@gmail.com",
+      "name": "Rajnish",
+      "phone": "90909009",
+      "email": "rajnish@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "groups": [
+    {
+      "name": ""
+    }
+  ]
 }

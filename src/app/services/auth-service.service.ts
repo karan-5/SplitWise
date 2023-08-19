@@ -20,4 +20,12 @@ export class AuthServiceService {
   register(inputData:{}){
     return this.http.post(this.apiUrl,inputData);
   }
+
+  updateCurrentUser(email:any){
+    return this.http.post(`http://localhost:3000/currentUser`,email);
+  }
+
+  getCurrentUser(){
+   return this.http.get<{email:string}>('http://localhost:3000/currentUser');
+  }
 }

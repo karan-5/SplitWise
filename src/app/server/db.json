@@ -5,33 +5,53 @@
       "name": "karan",
       "phone": "90909009",
       "email": "test@gmail.com",
-      "password": "1234"
+      "password": "1234",
+      "linkedUsers": {
+      }
     },
     {
       "id": "yash@gmail.com",
       "name": "yash",
       "phone": "90909090",
       "email": "yash@gmail.com",
-      "password": "1234"
+      "password": "1234",
+      "linkedUsers": {}
     },
     {
       "id": "chirag@gmail.com",
       "name": "Chirag",
       "phone": "90900990",
       "email": "chirag@gmail.com",
-      "password": "1234"
+      "password": "1234",
+      "linkedUsers": {}
     },
     {
       "id": "rajnish@gmail.com",
       "name": "Rajnish",
       "phone": "90909009",
       "email": "rajnish@gmail.com",
-      "password": "1234"
+      "password": "1234",
+      "linkedUsers": {}
+    },
+    {
+      "id": "lakshay@gmail.com",
+      "name": "Lakshay",
+      "phone": "90900909",
+      "email": "lakshay@gmail.com",
+      "password": "1234",
+      "linkedUsers": {}
+    },
+    {
+      "id": "jitender@gmail.com",
+      "name": "Jitender",
+      "phone": "90909090",
+      "email": "jitender@gmail.com",
+      "password": "1234",
+      "linkedUsers": {}
     }
   ],
-  "groups": [
-    {
-      "name": ""
-    }
-  ]
+  "groups": [],
+  "currentUser": {
+    "email": "yash@gmail.com"
+  }
 }

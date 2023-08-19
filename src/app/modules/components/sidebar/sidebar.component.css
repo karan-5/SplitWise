@@ -1,0 +1,14 @@
+h2{
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+}
+.wrapper{
+    background-color: lightcyan;
+}
+.user-card{
+    padding: 1rem;
+}
+.user-card:hover{
+    background-color: grey;
+}

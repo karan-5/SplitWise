@@ -36,6 +36,7 @@ export class LoginComponent {
       this.authService.getByCode(this.userForm.value.email as string).subscribe(res => {
         this.userData=res;
         if(this.userForm.value.password as string === this.userData.password){
+          this.authService.updateCurrentUser({email:this.userForm.value.email}).subscribe();
           this.router.navigate(['dashboard']);
         }
       })

@@ -1,14 +1,12 @@
 <div class="wrapper">
-<button class="add-expense-btn" (click)="addExpense()">Create Expense Group</button>
-
-<!-- <app-add-expense *ngIf="showAddition"></app-add-expense> -->
-    <div class="card-container">
-        <div class="owe-card">
-        <div class="owe-card"></div>
-          <h2>You owe</h2>
-        </div>
-        <div class="owed-card">
-           <h2>You are owed</h2>
-        </div>
+  <div class="card-container">
+    <app-sidebar></app-sidebar>
+    <div class="owe-card">
+      <div class="owe-card"></div>
+      <h2>You owe</h2>
     </div>
+    <div class="owed-card">
+      <h2>You are owed</h2>
+    </div>
+  </div>
 </div>

@@ -8,6 +8,9 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AddExpenseComponent } from './components/add-expense/add-expense.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { UserListComponent } from './components/user-list/user-list.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { UserExpenseDetailsComponent } from './components/user-expense-details/user-expense-details.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     DashboardComponent,
     HeaderComponent,
     FooterComponent,
-    AddExpenseComponent
+    AddExpenseComponent,
+    UserListComponent,
+    SidebarComponent,
+    UserExpenseDetailsComponent
   ],
   imports: [CommonModule, DashboardRoutingModule,ReactiveFormsModule],
 })

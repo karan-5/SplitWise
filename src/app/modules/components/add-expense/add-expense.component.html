@@ -1,12 +1,12 @@
 <div class="wrapper">
-  <form>
+  <form [formGroup]="userForm" (ngSubmit)="onAddExpense()"> 
     <div>
       <label>Amount </label>
-      <input type="number" placeholder="Enter amount" />
+      <input type="number" formControlName="amount" placeholder="Enter amount" />
     </div>
     <div>
       <label>Description </label>
-      <input type="text" placeholder="Add description" />
+      <input type="text" formControlName="description" placeholder="Add description" />
     </div>
     <button type="submit">Add</button>
   </form>

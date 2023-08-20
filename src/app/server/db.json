@@ -8,10 +8,15 @@
       "password": "1234",
       "linkedUsers": {
         "yash@gmail.com": [
-          
           {
             "amount": 12,
             "description": "sadf",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 20,
+            "description": "as",
             "paidBy": "false",
             "date": "Sun Aug 20 2023"
           }
@@ -26,10 +31,15 @@
       "password": "1234",
       "linkedUsers": {
         "test@gmail.com": [
-          
           {
             "amount": 12,
             "description": "sadf",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 20,
+            "description": "as",
             "paidBy": "true",
             "date": "Sun Aug 20 2023"
           }

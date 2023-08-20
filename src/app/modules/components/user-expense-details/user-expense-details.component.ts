@@ -18,6 +18,7 @@ export class UserExpenseDetailsComponent implements OnInit {
   userDetails!:User;
   expenseList!:{amount:string,description:string,paidBy:string,date:string}[];
   showAddition=false;
+  totalMoney=0;
   ngOnInit(): void {
     this.route.paramMap.subscribe(params=>{
       this.userId=params.get('id') as string;
@@ -34,9 +35,22 @@ export class UserExpenseDetailsComponent implements OnInit {
     this.userDataService.getExpenseList(this.userId).subscribe({
       next: (res:any)=>{
         this.expenseList=res.linkedUsers[this.currentUser];
+        this.expenseList?.forEach((value)=>{
+          if(value.paidBy=='false'){
+           this.totalMoney+=Number(value.amount)/2;
+          }
+          else{
+           this.totalMoney-=Number(value.amount)/2;
+          }
+   
+          console.log(this.totalMoney);
+        })
       },
     })
     
+  }
+  Math(temp:number){
+    return Math.abs(temp)
   }
 
   getExpense(index:string){

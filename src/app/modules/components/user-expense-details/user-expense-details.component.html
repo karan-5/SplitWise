@@ -1,7 +1,11 @@
 <div class="wrapper">
     <div class="card-container">
     <div class="container-header">
+    <div class="title">
     <h2>{{userDetails? userDetails.name : ""}}</h2>
+    <br>
+    <h5>{{totalMoney<0? 'You borrowed' : 'You lent'}} <span class="{{totalMoney<0? 'span-red' : 'span-green' }}">${{totalMoney<0? Math(totalMoney) : totalMoney }}</span></h5>
+    </div>
     <div class="buttons-container">
         <button class="expense-btn" (click)="onAddExpenseBtnClick()">Add Expense</button>
         <button class="settleup-btn">Settle up</button>

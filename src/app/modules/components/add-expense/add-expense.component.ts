@@ -1,5 +1,5 @@
 import { Component,Input,OnInit } from '@angular/core';
-import { FormBuilder } from '@angular/forms';
+import { FormBuilder, FormControl } from '@angular/forms';
 import { AuthServiceService } from 'src/app/services/auth-service.service';
 import { UserDataService } from 'src/app/services/user-data.service';
 import { ActivatedRoute } from '@angular/router';
@@ -12,6 +12,8 @@ export class AddExpenseComponent implements OnInit {
  
   @Input() emailSecond!:string;
   userEmail:string="";
+  date=new Date();
+  currentDate=this.date.toDateString()
   constructor(private formBuilder:FormBuilder,private authService:AuthServiceService,private userDetailsServices:UserDataService,private route:ActivatedRoute){
   }
    ngOnInit():  void {
@@ -26,11 +28,12 @@ export class AddExpenseComponent implements OnInit {
     amount:[''],
     description:[''],
     paidBy:['true'],
+    date: ['']
   })
 
   onAddExpense(){
     
-    console.log(this.emailSecond)
+    this.userForm.value.date=this.currentDate;
     this.userDetailsServices.updateUsersExpenses(this.userEmail,this.emailSecond,this.userForm.value);
     this.userDetailsServices.updateUsersExpenses(this.emailSecond,this.userEmail,{... this.userForm.value,paidBy:'false'});
   }

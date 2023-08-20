@@ -47,7 +47,7 @@
     flex-direction: column;
     padding: 10px;
 }
-.expense{
+.expenses{
     display: flex;
     justify-content: space-between;
     background-color: cyan;
@@ -72,14 +72,22 @@
     font-weight: 500;
 }
 
-.expense h3{
+.expenses h3{
     align-self: center;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .colorRed{
     color:red;
 }
 .colorGreen{
     color:green;
+}
+
+.expense h4{
+    align-self: center;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px;
 }

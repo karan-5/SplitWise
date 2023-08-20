@@ -15,9 +15,28 @@
             "date": "Sun Aug 20 2023"
           },
           {
-            "amount": 20,
-            "description": "sasd",
-            "paidBy": "true"
+            "amount": 50,
+            "description": "phu",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 40,
+            "description": "milk",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 67,
+            "description": "fdyt",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 45,
+            "description": "AIDCSV",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
           }
         ]
       }
@@ -37,9 +56,28 @@
             "date": "Sun Aug 20 2023"
           },
           {
-            "amount": 20,
-            "description": "sasd",
-            "paidBy": "false"
+            "amount": 50,
+            "description": "phu",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 40,
+            "description": "milk",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 67,
+            "description": "fdyt",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 45,
+            "description": "AIDCSV",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
           }
         ]
       }

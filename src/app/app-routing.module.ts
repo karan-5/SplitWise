@@ -11,6 +11,7 @@ const routes: Routes = [
     pathMatch:"full"
   },
   {path: "dashboard", loadChildren: () => import('./modules/dashboard.module').then(m => m.DashboardModule)},
+  // auth module
   {
     path:"login",
     component:LoginComponent
@@ -18,7 +19,7 @@ const routes: Routes = [
   {
     path:"signUp",
     component:SignupComponent
-  },
+  }, 
   {
     path:"**",
     component:NotFoundComponent

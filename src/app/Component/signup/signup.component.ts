@@ -13,9 +13,6 @@ export class SignupComponent {
   
   countId=1;
   userEmail="";
-  constructor(private formBuilder:FormBuilder,private authService:AuthServiceService,private router:Router){
-
-  }
   userForm=this.formBuilder.group({
     id:[''],
     name:[''],
@@ -24,6 +21,9 @@ export class SignupComponent {
     password:[''],
     linkedUsers:[{}],
   })
+  constructor(private formBuilder:FormBuilder,private authService:AuthServiceService,private router:Router){
+
+  }
 
   onSignUp(){
    this.userForm.value.id=this.userForm.value.email;

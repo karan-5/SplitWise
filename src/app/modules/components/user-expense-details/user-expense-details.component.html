@@ -1,21 +1,21 @@
 <div class="wrapper">
     <div class="card-container">
-    <div class="container-header">
-    <h2>{{userDetails? userDetails.name : ""}}</h2>
-    <div class="buttons-container">
-        <button class="expense-btn" (click)="onAddExpenseBtnClick()">Add Expense</button>
-        <button class="settleup-btn">Settle up</button>
-    </div>
-    </div>
-    <app-add-expense *ngIf="showAddition" [emailSecond]="userId" ></app-add-expense>
-    <div class="expense-list">
-        <div class="expense" *ngFor="let expense of expenseList; let index=index">
-            <div class="description-container">
-                <h4>{{expense.description ? expense.description : ""}}</h4>
-                <p>{{expense.paidBy=='false' ? ['You paid ']+expense.amount : ['He paid ']+expense.amount }}</p>
+        <div class="container-header">
+            <h2>{{userDetails? userDetails.name : ""}}</h2>
+            <div class="buttons-container">
+                <button class="expense-btn" (click)="onAddExpenseBtnClick()">Add Expense</button>
+                <button class="settleup-btn">Settle up</button>
             </div>
-            <h3 class="{{expense.paidBy=='true' ? 'colorRed' : 'colorGreen' }} " >{{getExpense(expense.amount)}}  {{expense.paidBy=='false' ? 'You lent' : 'You borrowed'}}</h3>
         </div>
-    </div>
+        <app-add-expense *ngIf="showAddition" [emailSecond]="userId" ></app-add-expense>
+        <div class="expense-list">
+            <div class="expense" *ngFor="let expense of expenseList; let index=index">
+                <div class="description-container">
+                    <h4 class="description__heading">{{expense.description ? expense.description : ""}}</h4>
+                    <p class="amount__para">{{expense.paidBy=='false' ? ['You paid ']+expense.amount : ['He paid ']+expense.amount}}</p>
+                </div>
+                <h3 class="{{expense.paidBy=='true' ? 'colorRed' : 'colorGreen' }} " >{{getExpense(expense.amount) | currency:'INR':'symbol':'1.2-2'}}  {{expense.paidBy=='false' ? 'You lent' : 'You borrowed'}}</h3>
+            </div>
+        </div>
     </div>
 </div>

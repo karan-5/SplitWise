@@ -7,10 +7,19 @@
     justify-content: space-between;
     padding: 1rem;
 }
+
+.container-header h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-shadow: 1px 1px;
+}
 .card-container{
     background-color: lightcyan;
     width: 50%;
-    
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .expense-btn{
     background-color: orangered;
@@ -20,6 +29,8 @@
     border-radius: 8px;
     color: white;
     font-weight: 700;
+    font-size: medium;
+    box-shadow: 3px 3px black;
 }
 .settleup-btn{
     background-color: cyan;
@@ -27,23 +38,44 @@
     padding: 1rem;
     border-radius: 8px;
     color: black;
+    font-size: medium;
     font-weight: 700;
+    box-shadow: 3px 3px black;
 }
 .expense-list{
-    background-color: white;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 .expense{
     display: flex;
-    justify-content: space-evenly;
-    border: 1px solid grey;
+    justify-content: space-between;
+    background-color: cyan;
+    border: 1px solid lightcoral;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 8px;
 }
 .description-container{
     text-align: center;
 }
-h3{
+
+.description__heading{
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px;
+}
+
+.amount__para{
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.expense h3{
     align-self: center;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .colorRed{
     color:red;

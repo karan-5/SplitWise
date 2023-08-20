@@ -27,6 +27,31 @@
             "amount": 50,
             "description": "Chocolate",
             "paidBy": "false"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "true"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "true"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "true"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "true"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "true"
           }
         ]
       }
@@ -58,6 +83,31 @@
             "amount": 50,
             "description": "Chocolate",
             "paidBy": "true"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "false"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "false"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "false"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "false"
+          },
+          {
+            "amount": 50,
+            "description": "afsei",
+            "paidBy": "false"
           }
         ]
       }
@@ -97,6 +147,6 @@
   ],
   "groups": [],
   "currentUser": {
-    "email": "yash@gmail.com"
+    "email": "test@gmail.com"
   }
 }

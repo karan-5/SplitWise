@@ -7,15 +7,60 @@
       "email": "test@gmail.com",
       "password": "1234",
       "linkedUsers": {
+        "yash@gmail.com": [
+          {
+            "amount": 12,
+            "description": "af",
+            "paidBy": "false"
+          },
+          {
+            "amount": 15,
+            "description": "fg",
+            "paidBy": "false"
+          },
+          {
+            "amount": 30,
+            "description": "Milk",
+            "paidBy": "true"
+          },
+          {
+            "amount": 50,
+            "description": "Chocolate",
+            "paidBy": "false"
+          }
+        ]
       }
     },
     {
       "id": "yash@gmail.com",
       "name": "yash",
-      "phone": "90909090",
+      "phone": "90909009",
       "email": "yash@gmail.com",
       "password": "1234",
-      "linkedUsers": {}
+      "linkedUsers": {
+        "test@gmail.com": [
+          {
+            "amount": 12,
+            "description": "af",
+            "paidBy": "true"
+          },
+          {
+            "amount": 15,
+            "description": "fg",
+            "paidBy": "true"
+          },
+          {
+            "amount": 30,
+            "description": "Milk",
+            "paidBy": "false"
+          },
+          {
+            "amount": 50,
+            "description": "Chocolate",
+            "paidBy": "true"
+          }
+        ]
+      }
     },
     {
       "id": "chirag@gmail.com",

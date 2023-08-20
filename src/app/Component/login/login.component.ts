@@ -2,13 +2,6 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormBuilder } from '@angular/forms';
 import { AuthServiceService } from 'src/app/services/auth-service.service';
-import {
-  trigger,
-  state,
-  style,
-  animate,
-  transition,
-} from '@angular/animations';
 
 @Component({
   selector: 'app-login',
@@ -33,6 +26,7 @@ export class LoginComponent {
 
   onLoginIn(){
     if(this.userForm.valid){
+      // rxjs 
       this.authService.getByCode(this.userForm.value.email as string).subscribe(res => {
         this.userData=res;
         if(this.userForm.value.password as string === this.userData.password){
@@ -40,6 +34,25 @@ export class LoginComponent {
           this.router.navigate(['dashboard']);
         }
       })
+      // const query = this.authService.getByCode(this.userForm.value.email as string).pipe(
+      //   concatMap((firstResponse)=>{
+      //     this.userData = firstResponse
+      //       if(this.userForm.value.password as string === this.userData.password){
+      //         return this.authService.updateCurrentUser({email:this.userForm.value.email})
+      //       }else{
+      //         return of('Error')
+      //       }
+      // })
+      // )
+      // query.subscribe((response)=>{},error=>{},()=>{})
+      // query.subscribe({
+      //   next:(response)=>{
+      //      this.router.navigate(['dashboard']);
+      //   },
+      //   error:(error)=>{
+
+      //   }
+      // })
     }
   }
 

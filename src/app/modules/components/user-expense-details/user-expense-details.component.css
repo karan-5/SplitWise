@@ -31,7 +31,23 @@
 }
 .expense-list{
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 .expense{
+    display: flex;
+    justify-content: space-evenly;
     border: 1px solid grey;
+}
+.description-container{
+    text-align: center;
+}
+h3{
+    align-self: center;
+}
+.colorRed{
+    color:red;
+}
+.colorGreen{
+    color:green;
 }

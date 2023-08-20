@@ -8,6 +8,7 @@
       "password": "1234",
       "linkedUsers": {
         "yash@gmail.com": [
+          
           {
             "amount": 12,
             "description": "af",
@@ -51,7 +52,8 @@
           {
             "amount": 50,
             "description": "afsei",
-            "paidBy": "true"
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
           }
         ]
       }
@@ -64,6 +66,7 @@
       "password": "1234",
       "linkedUsers": {
         "test@gmail.com": [
+          
           {
             "amount": 12,
             "description": "af",
@@ -107,7 +110,8 @@
           {
             "amount": 50,
             "description": "afsei",
-            "paidBy": "false"
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
           }
         ]
       }

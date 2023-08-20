@@ -25,6 +25,96 @@
             "description": "asd",
             "paidBy": "true",
             "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 70,
+            "description": "Koupon",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 54,
+            "description": "gf",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 213,
+            "description": "asd",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 231,
+            "description": "afsd",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 23,
+            "description": "jiji",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 10,
+            "description": "cola",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 5,
+            "description": "ok",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 2,
+            "description": "asd",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 12,
+            "description": "asd",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 34,
+            "description": "s<",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 10,
+            "description": "347",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 30,
+            "description": "koko",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 12,
+            "description": "milk",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 10,
+            "description": "milk",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 10,
+            "description": "milk",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023"
           }
         ]
       }
@@ -53,6 +143,96 @@
             "amount": 2,
             "description": "asd",
             "paidBy": "false",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 70,
+            "description": "Koupon",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 54,
+            "description": "gf",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 213,
+            "description": "asd",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 231,
+            "description": "afsd",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 23,
+            "description": "jiji",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 10,
+            "description": "cola",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 5,
+            "description": "ok",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 2,
+            "description": "asd",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 12,
+            "description": "asd",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 34,
+            "description": "s<",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 10,
+            "description": "347",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 30,
+            "description": "koko",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 12,
+            "description": "milk",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 10,
+            "description": "milk",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 10,
+            "description": "milk",
+            "paidBy": "true",
             "date": "Sun Aug 20 2023"
           }
         ]

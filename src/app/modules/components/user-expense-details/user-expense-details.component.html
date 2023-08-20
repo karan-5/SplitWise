@@ -8,10 +8,17 @@
     </div>
     <div class="buttons-container">
         <button class="expense-btn" (click)="onAddExpenseBtnClick()">Add Expense</button>
-        <button class="settleup-btn">Settle up</button>
+        <button class="settleup-btn" (click)="onSettleUpBtnClick()" [disabled]="totalMoney<=0">Settle up</button>
     </div>
     </div>
-    <app-add-expense *ngIf="showAddition" [emailSecond]="userId" ></app-add-expense>
+    <div class="settleUp-container" *ngIf="showSettleWindow">
+        <p>You are paying Karan </p>
+        <div class="settleUp-amount">
+            ${{totalMoney<0? Math(totalMoney) : totalMoney }}
+        </div>
+        <button class="paid-button" (click)="settleUp()">Done</button>
+    </div>
+    <app-add-expense *ngIf="showAddition" [emailSecond]="userId" (expensesAdded)="getUserExpensesList()" ></app-add-expense>
     <div class="expense-list">
         <div class="expense" *ngFor="let expense of expenseList; let index=index">
             <h4>{{expense.date.slice(3,10)}}</h4>

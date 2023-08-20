@@ -2,12 +2,27 @@ h2{
     color: white;
     background-color: orangered;
     border-radius: 20px;
+
 }
 .wrapper{
     background-color: lightcyan;
+    display: flex;
+    column-gap: 1rem;
+    padding: 3rem;
+    border-radius: 20px;
+    
 }
 .user-card{
     padding: 1rem;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4rem;
+    border-radius: 10px;
+}
+p{
+    
 }
 .user-card:hover{
     background-color: grey;

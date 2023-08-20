@@ -45,16 +45,19 @@
     flex-direction: column;
 }
 .expense{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     border: 1px solid grey;
     padding: 1rem;
 }
 .description-container{
+    justify-self: center;
     text-align: center;
 }
 h3{
     align-self: center;
+    justify-self: end;
 }
 .colorRed{
     color:red;

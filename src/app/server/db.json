@@ -19,6 +19,12 @@
             "description": "as",
             "paidBy": "false",
             "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 2,
+            "description": "asd",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023"
           }
         ]
       }
@@ -41,6 +47,12 @@
             "amount": 20,
             "description": "as",
             "paidBy": "true",
+            "date": "Sun Aug 20 2023"
+          },
+          {
+            "amount": 2,
+            "description": "asd",
+            "paidBy": "false",
             "date": "Sun Aug 20 2023"
           }
         ]

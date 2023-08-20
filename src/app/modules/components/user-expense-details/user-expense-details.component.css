@@ -36,8 +36,9 @@
 }
 .expense{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border: 1px solid grey;
+    padding: 1rem;
 }
 .description-container{
     text-align: center;
@@ -50,4 +51,7 @@ h3{
 }
 .colorGreen{
     color:green;
+}
+h4{
+    align-self: center;
 }

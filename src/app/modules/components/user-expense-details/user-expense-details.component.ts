@@ -16,7 +16,7 @@ export class UserExpenseDetailsComponent implements OnInit {
   userId!:string;
   currentUser!:string;
   userDetails!:User;
-  expenseList!:{amount:string,description:string,paidBy:string}[];
+  expenseList!:{amount:string,description:string,paidBy:string,date:string}[];
   showAddition=false;
   ngOnInit(): void {
     this.route.paramMap.subscribe(params=>{

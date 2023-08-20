@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { User } from '../shared/models';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +16,7 @@ export class AuthServiceService {
   }
 
   getByCode(code:string){
-    return this.http.get(this.apiUrl+'/'+code)
+    return this.http.get<User>(this.apiUrl+'/'+code)
   }
 
   register(inputData:{}){

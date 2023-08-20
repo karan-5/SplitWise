@@ -4,6 +4,7 @@ import { AuthServiceService } from 'src/app/services/auth-service.service';
 import { UserDataService } from 'src/app/services/user-data.service';
 import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
+import { concatMap } from 'rxjs';
 @Component({
   selector: 'app-add-expense',
   templateUrl: './add-expense.component.html',
@@ -12,7 +13,7 @@ import { Router } from '@angular/router';
 export class AddExpenseComponent implements OnInit {
  
   @Input() emailSecond!:string;
-  @Output() expensesAdded= new EventEmitter;
+  @Output() expensesAdded= new EventEmitter();
   userEmail:string="";
   date=new Date();
   currentDate=this.date.toDateString()
@@ -30,14 +31,21 @@ export class AddExpenseComponent implements OnInit {
     amount:[''],
     description:[''],
     paidBy:['true'],
-    date: ['']
+    date: [''],
+    split:['true']
   })
 
   onAddExpense(){
     
     this.userForm.value.date=this.currentDate;
-    this.userDetailsServices.updateUsersExpenses(this.userEmail,this.emailSecond,this.userForm.value);
-    this.userDetailsServices.updateUsersExpenses(this.emailSecond,this.userEmail,{... this.userForm.value,paidBy:'false'});
-    this.expensesAdded.emit();
+    this.userDetailsServices.updateUsersExpenses(this.userEmail,this.emailSecond,this.userForm.value).pipe(
+      concatMap((firstResponse:any)=>{
+        return this.userDetailsServices.updateUsersExpenses(this.emailSecond,this.userEmail,{... this.userForm.value,paidBy:'false'})
+      })
+    ).subscribe({
+      next:(response)=>{
+        this.expensesAdded.emit();
+      }
+    })
   }
 }

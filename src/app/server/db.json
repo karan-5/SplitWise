@@ -9,112 +9,81 @@
       "linkedUsers": {
         "yash@gmail.com": [
           {
-            "amount": 12,
-            "description": "sadf",
+            "amount": 48,
+            "description": "Milk",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": 10,
+            "description": "Tiger Crunch",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "29",
+            "description": "test@gmail.com paid: ",
             "paidBy": "false",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           },
           {
             "amount": 20,
-            "description": "as",
+            "description": "Coffee",
             "paidBy": "false",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "true"
           },
           {
-            "amount": 2,
-            "description": "asd",
+            "amount": "10",
+            "description": "yash@gmail.com paid: ",
             "paidBy": "true",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           },
           {
-            "amount": 70,
-            "description": "Koupon",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
+            "amount": 40,
+            "description": "Tea",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
           },
           {
-            "amount": 54,
-            "description": "gf",
+            "amount": "20",
+            "description": "test@gmail.com paid: ",
             "paidBy": "false",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           },
           {
-            "amount": 213,
-            "description": "asd",
+            "amount": 40,
+            "description": "Coffee",
             "paidBy": "false",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "true"
           },
           {
-            "amount": 231,
-            "description": "afsd",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
+            "amount": "20",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           },
           {
-            "amount": 23,
-            "description": "jiji",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
           },
           {
-            "amount": 10,
-            "description": "cola",
+            "amount": "20",
+            "description": "yash paid: ",
             "paidBy": "false",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 5,
-            "description": "ok",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 2,
-            "description": "asd",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 12,
-            "description": "asd",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 34,
-            "description": "s<",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 10,
-            "description": "347",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 30,
-            "description": "koko",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 12,
-            "description": "milk",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 10,
-            "description": "milk",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 10,
-            "description": "milk",
-            "paidBy": "false",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           }
         ]
       }
@@ -128,112 +97,81 @@
       "linkedUsers": {
         "test@gmail.com": [
           {
-            "amount": 12,
-            "description": "sadf",
+            "amount": 48,
+            "description": "Milk",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": 10,
+            "description": "Tiger Crunch",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "29",
+            "description": "test@gmail.com paid: ",
             "paidBy": "true",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           },
           {
             "amount": 20,
-            "description": "as",
+            "description": "Coffee",
             "paidBy": "true",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "true"
           },
           {
-            "amount": 2,
-            "description": "asd",
+            "amount": "10",
+            "description": "yash@gmail.com paid: ",
             "paidBy": "false",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           },
           {
-            "amount": 70,
-            "description": "Koupon",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
+            "amount": 40,
+            "description": "Tea",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
           },
           {
-            "amount": 54,
-            "description": "gf",
+            "amount": "20",
+            "description": "test@gmail.com paid: ",
             "paidBy": "true",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           },
           {
-            "amount": 213,
-            "description": "asd",
+            "amount": 40,
+            "description": "Coffee",
             "paidBy": "true",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "true"
           },
           {
-            "amount": 231,
-            "description": "afsd",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
+            "amount": "20",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           },
           {
-            "amount": 23,
-            "description": "jiji",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
           },
           {
-            "amount": 10,
-            "description": "cola",
+            "amount": "20",
+            "description": "yash paid: ",
             "paidBy": "true",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 5,
-            "description": "ok",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 2,
-            "description": "asd",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 12,
-            "description": "asd",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 34,
-            "description": "s<",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 10,
-            "description": "347",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 30,
-            "description": "koko",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 12,
-            "description": "milk",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 10,
-            "description": "milk",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
-          },
-          {
-            "amount": 10,
-            "description": "milk",
-            "paidBy": "true",
-            "date": "Sun Aug 20 2023"
+            "date": "Sun Aug 20 2023",
+            "split": "false"
           }
         ]
       }

@@ -1,0 +1,244 @@
+{
+  "users": [
+    {
+      "id": "test@gmail.com",
+      "name": "karan",
+      "phone": "90909009",
+      "email": "test@gmail.com",
+      "password": "1234",
+      "linkedUsers": {
+        "yash@gmail.com": [
+          {
+            "amount": 48,
+            "description": "Milk",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": 10,
+            "description": "Tiger Crunch",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "29",
+            "description": "test@gmail.com paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 20,
+            "description": "Coffee",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "10",
+            "description": "yash@gmail.com paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Tea",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "test@gmail.com paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "yash paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 50,
+            "description": "Burgur",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "25",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yash@gmail.com",
+      "name": "yash",
+      "phone": "90909009",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "linkedUsers": {
+        "test@gmail.com": [
+          {
+            "amount": 48,
+            "description": "Milk",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": 10,
+            "description": "Tiger Crunch",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "29",
+            "description": "test@gmail.com paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 20,
+            "description": "Coffee",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "10",
+            "description": "yash@gmail.com paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Tea",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "test@gmail.com paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "yash paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 50,
+            "description": "Burgur",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "25",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chirag@gmail.com",
+      "name": "Chirag",
+      "phone": "90900990",
+      "email": "chirag@gmail.com",
+      "password": "1234",
+      "linkedUsers": {}
+    },
+    {
+      "id": "rajnish@gmail.com",
+      "name": "Rajnish",
+      "phone": "90909009",
+      "email": "rajnish@gmail.com",
+      "password": "1234",
+      "linkedUsers": {}
+    },
+    {
+      "id": "lakshay@gmail.com",
+      "name": "Lakshay",
+      "phone": "90900909",
+      "email": "lakshay@gmail.com",
+      "password": "1234",
+      "linkedUsers": {}
+    },
+    {
+      "id": "jitender@gmail.com",
+      "name": "Jitender",
+      "phone": "90909090",
+      "email": "jitender@gmail.com",
+      "password": "1234",
+      "linkedUsers": {}
+    }
+  ],
+  "groups": [],
+  "currentUser": {
+    "email": "test@gmail.com"
+  }
+}

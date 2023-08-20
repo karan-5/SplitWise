@@ -1,0 +1,14 @@
+.wrapper{
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns:1fr;
+    margin: 2rem 2rem;
+    
+}
+h1{
+    margin-bottom: 1rem;
+    background-color: orangered;
+    border-radius: 20px;
+}

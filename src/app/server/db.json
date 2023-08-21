@@ -6,8 +6,7 @@
       "phone": "90909009",
       "email": "test@gmail.com",
       "password": "1234",
-      "linkedUsers": {
-      }
+      "linkedUsers": {}
     },
     {
       "id": "yash@gmail.com",
@@ -52,6 +51,6 @@
   ],
   "groups": [],
   "currentUser": {
-    "email": "yash@gmail.com"
+    "email": "test@gmail.com"
   }
 }

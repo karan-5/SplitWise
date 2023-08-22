@@ -3,27 +3,56 @@
     flex-direction: column;
     align-items: center;
 }
-
+.header{
+    background-color: #00FFFF;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h2{
+    font-weight: 700;
+}
 .form__container {
-    box-shadow: 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 2rem;
-    background-color: lightgray;
+    background-color:rgb(241, 244, 247);
+    margin-top:6rem;
+    border-radius: 10px;
 }
-
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+}
 input{
-    padding: 4px;
-    margin-top:1rem;
-    margin-bottom: 1rem;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
-
 .login{
-    padding: 4px;
-    margin-top:1rem;
-    margin-bottom: 1rem;
-    box-shadow: 3px 3px;
+    margin-top: 1rem;
+    align-self: center;
+    background-color: green;
+    color: white;
+    padding: 0.4rem;
+    font-size: large;
+    width: 60%;
+    border: none;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .signup {
-    margin-left: 4px;
-    padding: 5px;
-    box-shadow: 3px 3px;
+    align-self: center;
+    background-color: green;
+    color: white;
+    padding: 0.4rem;
+    font-size: large;
+    width: 60%;
+    border: none;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

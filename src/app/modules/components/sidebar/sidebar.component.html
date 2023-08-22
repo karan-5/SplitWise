@@ -1,6 +1,6 @@
 <div class="wrapper">
-    <h2>Users</h2>
-    <div class="user-card" *ngFor="let user of userList; let index=index">
-        <p [routerLink]="[user.email]">{{user.name}}</p>
+    <div [routerLink]="[user.email]" class="user-card" *ngFor="let user of userList; let index=index">
+        <img src="assets/images/profile.png" height="50px" width="50px">
+        <p>{{user.name}}</p>
     </div>
 </div>

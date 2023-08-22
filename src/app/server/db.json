@@ -6,15 +6,499 @@
       "phone": "90909009",
       "email": "test@gmail.com",
       "password": "1234",
-      "linkedUsers": {}
+      "linkedUsers": {
+        "yash@gmail.com": [
+          {
+            "amount": 48,
+            "description": "Milk",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": 10,
+            "description": "Tiger Crunch",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "29",
+            "description": "test@gmail.com paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 20,
+            "description": "Coffee",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "10",
+            "description": "yash@gmail.com paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Tea",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "test@gmail.com paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "yash paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 50,
+            "description": "Burgur",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "25",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 345,
+            "description": "vg",
+            "paidBy": "true",
+            "date": "Mon Aug 21 2023",
+            "split": "true"
+          },
+          {
+            "amount": "172.5",
+            "description": "yash paid: ",
+            "paidBy": "false",
+            "date": "Mon Aug 21 2023",
+            "split": "false"
+          },
+          {
+            "amount": 30,
+            "description": "milk",
+            "paidBy": "false",
+            "date": "Mon Aug 21 2023",
+            "split": "true"
+          },
+          {
+            "amount": "15",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Mon Aug 21 2023",
+            "split": "false"
+          },
+          {
+            "amount": 50,
+            "description": "chocolate",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "25",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "ysdf",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": 45,
+            "description": "SDVX",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "22.5",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": 43,
+            "description": "ddfvfd",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "21.5",
+            "description": "yash paid: ",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": "",
+            "description": "",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "",
+            "description": "",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 500,
+            "description": "Toffee",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "250",
+            "description": "karan paid: ",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          }
+        ]
+      }
     },
     {
       "id": "yash@gmail.com",
       "name": "yash",
-      "phone": "90909090",
+      "phone": "90909009",
       "email": "yash@gmail.com",
       "password": "1234",
-      "linkedUsers": {}
+      "linkedUsers": {
+        "test@gmail.com": [
+          {
+            "amount": 48,
+            "description": "Milk",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": 10,
+            "description": "Tiger Crunch",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "29",
+            "description": "test@gmail.com paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 20,
+            "description": "Coffee",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "10",
+            "description": "yash@gmail.com paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Tea",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "test@gmail.com paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "Coffee",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "yash paid: ",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 50,
+            "description": "Burgur",
+            "paidBy": "true",
+            "date": "Sun Aug 20 2023",
+            "split": "true"
+          },
+          {
+            "amount": "25",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Sun Aug 20 2023",
+            "split": "false"
+          },
+          {
+            "amount": 345,
+            "description": "vg",
+            "paidBy": "false",
+            "date": "Mon Aug 21 2023",
+            "split": "true"
+          },
+          {
+            "amount": "172.5",
+            "description": "yash paid: ",
+            "paidBy": "true",
+            "date": "Mon Aug 21 2023",
+            "split": "false"
+          },
+          {
+            "amount": 30,
+            "description": "milk",
+            "paidBy": "true",
+            "date": "Mon Aug 21 2023",
+            "split": "true"
+          },
+          {
+            "amount": "15",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Mon Aug 21 2023",
+            "split": "false"
+          },
+          {
+            "amount": 50,
+            "description": "chocolate",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "25",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": 40,
+            "description": "ysdf",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "20",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": 45,
+            "description": "SDVX",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "22.5",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": 43,
+            "description": "ddfvfd",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "21.5",
+            "description": "yash paid: ",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": "",
+            "description": "",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "",
+            "description": "",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 500,
+            "description": "Toffee",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "250",
+            "description": "karan paid: ",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          }
+        ],
+        "rajnish@gmail.com": [
+          {
+            "amount": 100,
+            "description": "apple",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 23,
+            "description": "maggie",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 12,
+            "description": "rent",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 23.5,
+            "description": "qwerty",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "43.75",
+            "description": "Rajnish paid: ",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": 10,
+            "description": "Milk",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 20,
+            "description": "MILk2",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 10,
+            "description": "Milk",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 30,
+            "description": "Milk",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "5",
+            "description": "Rajnish paid: ",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          }
+        ]
+      }
     },
     {
       "id": "chirag@gmail.com",
@@ -30,7 +514,96 @@
       "phone": "90909009",
       "email": "rajnish@gmail.com",
       "password": "1234",
-      "linkedUsers": {}
+      "linkedUsers": {
+        "yash@gmail.com": [
+          {
+            "amount": 100,
+            "description": "apple",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 23,
+            "description": "maggie",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 12,
+            "description": "rent",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 23.5,
+            "description": "qwerty",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "43.75",
+            "description": "Rajnish paid: ",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          },
+          {
+            "amount": 10,
+            "description": "Milk",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 20,
+            "description": "MILk2",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 10,
+            "description": "Milk",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 30,
+            "description": "Milk",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": "5",
+            "description": "Rajnish paid: ",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "false"
+          }
+        ],
+        "rajnish@gmail.com": [
+          {
+            "amount": 40,
+            "description": "Ghee",
+            "paidBy": "true",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          },
+          {
+            "amount": 40,
+            "description": "Ghee",
+            "paidBy": "false",
+            "date": "Tue Aug 22 2023",
+            "split": "true"
+          }
+        ]
+      }
     },
     {
       "id": "lakshay@gmail.com",
@@ -45,6 +618,22 @@
       "name": "Jitender",
       "phone": "90909090",
       "email": "jitender@gmail.com",
+      "password": "1234",
+      "linkedUsers": {}
+    },
+    {
+      "id": "pragati@gmail.com",
+      "name": "pragati",
+      "phone": "4242423231",
+      "email": "pragati@gmail.com",
+      "password": "1234",
+      "linkedUsers": {}
+    },
+    {
+      "id": "himanshi@gmail.com",
+      "name": "himanshi",
+      "phone": "985643787421",
+      "email": "himanshi@gmail.com",
       "password": "1234",
       "linkedUsers": {}
     }

@@ -15,15 +15,15 @@ export class SignupComponent {
   countId = 1;
   userEmail = "";
   userForm = this.formBuilder.group({
-    id:[''],
-    name:[''],
-    phone:[''],
-    email:[''],
-    password:[''],
-    linkedUsers:[{}],
+    id: [''],
+    name: [''],
+    phone: [''],
+    email: [''],
+    password: [''],
+    linkedUsers: [{}],
   });
 
-  constructor(private formBuilder:FormBuilder,private authService:AuthServiceService,private router:Router){
+  constructor(private formBuilder: FormBuilder,private authService: AuthServiceService,private router: Router){
     // 
   }
 
@@ -31,10 +31,8 @@ export class SignupComponent {
     
     this.userForm.value.id = this.userForm.value.email;
     this.authService.updateCurrentUser({email:this.userForm.value.email}).subscribe();
-    this.authService.register(this.userForm.value).subscribe(res=>{
-      // this.toastrService.success("Successfully registered");
+    this.authService.register(this.userForm.value).subscribe(() => {
       this.router.navigate(['dashboard']);
-    
     });
   }
 

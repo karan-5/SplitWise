@@ -1,28 +1,31 @@
 import { Component,OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { AuthServiceService } from 'src/app/services/auth-service.service';
-import { UserDataService } from 'src/app/services/user-data.service';
-import { User } from 'src/app/shared/models';
 import { Router } from '@angular/router';
 import { FormBuilder } from '@angular/forms';
 import { concatMap } from 'rxjs';
+
+import { AuthServiceService } from 'src/app/services/auth-service.service';
+import { UserDataService } from 'src/app/services/user-data.service';
+import { User } from 'src/app/shared/models';
 
 @Component({
   selector: 'app-user-expense-details',
   templateUrl: './user-expense-details.component.html',
   styleUrls: ['./user-expense-details.component.css']
 })
+
 export class UserExpenseDetailsComponent implements OnInit {
-  constructor(private route:ActivatedRoute,private userDetailsServices:UserDataService,private formBuilder:FormBuilder ,private userDataService:UserDataService,private authService:AuthServiceService,private router:Router) {
+  constructor(private route: ActivatedRoute,private userDetailsServices: UserDataService,private formBuilder: FormBuilder ,private userDataService: UserDataService,private authService: AuthServiceService,private router: Router) {
   }
-  userId!:string;
-  currentUser!:string;
-  currentUserName!:string;
-  userDetails!:User;
-  expenseList!:{amount:string,description:string,paidBy:string,date:string,split:string}[];
+  userId!: string;
+  currentUser!: string;
+  currentUserName!: string;
+  userDetails!: User;
+  expenseList!: {amount: string,description: string,paidBy: string,date: string,split: string}[];
   showAddition = false;
   totalMoney = 0;
   showSettleWindow = false;
+
   getUserExpensesList(){
     this.totalMoney = 0;
     this.authService.getCurrentUser().subscribe((res)=>{
@@ -60,20 +63,20 @@ export class UserExpenseDetailsComponent implements OnInit {
   }
 
   userForm = this.formBuilder.group({
-    amount:[''],
-    description:[''],
-    paidBy:['true'],
+    amount: [''],
+    description: [''],
+    paidBy: ['true'],
     date: [''],
-    split:['true']
+    split: ['true']
   });
   date = new Date();
   currentDate = this.date.toDateString();
 
-  Math(temp:number){
+  Math(temp: number){
     return Math.abs(temp);
   }
 
-  getExpense(split:string, amount:string){
+  getExpense(split: string, amount: string){
     return split == "true" ? Number(amount) / 2 :  amount; 
   }
   onAddExpenseBtnClick(){ 

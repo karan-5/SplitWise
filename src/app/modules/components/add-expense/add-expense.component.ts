@@ -12,6 +12,7 @@ import { UserDataService } from 'src/app/services/user-data.service';
   templateUrl: './add-expense.component.html',
   styleUrls: ['./add-expense.component.css']
 })
+
 export class AddExpenseComponent implements OnInit, OnDestroy {
   @Input() emailSecond!: string;
   @Output() expensesAdded = new EventEmitter();

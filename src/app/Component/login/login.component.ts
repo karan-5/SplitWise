@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormBuilder } from '@angular/forms';
+
 import { AuthServiceService } from 'src/app/services/auth-service.service';
-import { concatMap, of } from 'rxjs';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
 })
+
 export class LoginComponent {
 
   constructor(private router: Router, private route: ActivatedRoute,private formBuilder:FormBuilder,private authService:AuthServiceService) {}

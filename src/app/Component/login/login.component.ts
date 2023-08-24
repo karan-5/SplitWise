@@ -12,11 +12,11 @@ import { AuthServiceService } from 'src/app/services/auth-service.service';
 
 export class LoginComponent {
 
-  constructor(private router: Router, private route: ActivatedRoute,private formBuilder:FormBuilder,private authService:AuthServiceService) {}
-  userData:any = {};
+  constructor(private router: Router, private route: ActivatedRoute,private formBuilder: FormBuilder,private authService: AuthServiceService) {}
+  userData: any = {};
   userForm = this.formBuilder.group({
-    email:[''],
-    password:[''],
+    email: [''],
+    password: [''],
   });
    
   goToSignUp() {
@@ -33,34 +33,6 @@ export class LoginComponent {
           this.router.navigate(['dashboard']);
         }
       });
-      // const query = this.authService.getByCode(this.userForm.value.email as string).pipe(
-      //   concatMap((firstResponse)=>{
-      //     this.userData = firstResponse
-      //       if(this.userForm.value.password as string === this.userData.password){
-      //         return this.authService.updateCurrentUser({email:this.userForm.value.email})
-      //       }else{
-      //         return of('Error')
-      //       }
-      // })
-      // )
-      // query.subscribe((response)=>{},error=>{},()=>{})
-      // query.subscribe({
-      //   next:(response)=>{
-      //      this.router.navigate(['dashboard']);
-      //   },
-      //   error:(error)=>{
-
-      //   }
-      // })
     }
   }
-
-  // onGoogleSignIn(googleUser: any) {
-  //   let profile = googleUser.getBasicProfile();
-  //   console.log(profile);
-  //   console.log('ID: ' + profile.getId());
-  //   console.log('Name: ' + profile.getName());
-  //   console.log('Image URL: ' + profile.getImageUrl());
-  //   console.log('Email: ' + profile.getEmail());
-  // }
 }
